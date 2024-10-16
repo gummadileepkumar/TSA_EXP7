@@ -27,7 +27,7 @@ from statsmodels.tsa.ar_model import AutoReg
 from sklearn.metrics import mean_squared_error
 
 # Load the dataset
-data = pd.read_csv('/content/infy_stock-Copy1.csv')  
+data = pd.read_csv('infy_stock.csv')  
 
 # Convert 'Date' to datetime format and set it as the index
 data['Date'] = pd.to_datetime(data['Date'])
